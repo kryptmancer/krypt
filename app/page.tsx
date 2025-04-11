@@ -118,7 +118,7 @@ export default function Krypt() {
             <CardContent className="pt-6 pb-2">
               <div className="space-y-6">
                 <Input
-                  placeholder="What do you want to learn?"
+                  placeholder="Whats up?"
                   className="min-h-[60px] text-lg bg-zinc-800 border-zinc-700 focus:border-emerald-500 focus:ring-emerald-500/20"
                   value={topic}
                   onChange={(e) => setTopic(e.target.value)}
